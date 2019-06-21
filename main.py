@@ -1,17 +1,8 @@
 import socketio
 
-TOKEN = "" #You donation alert token
+TOKEN = "  " #You donation alert token
 
 sio = socketio.Client()
-
-@sio.event
-def connect():
-    print('connection established')
-
-@sio.event
-def my_message(data):
-    print('message received with ', data)
-
 
 @sio.on('donation')
 def on_message(data):
