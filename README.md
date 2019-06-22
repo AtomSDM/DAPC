@@ -1,4 +1,4 @@
-# DAPS
+# DAPC
 Donation Alert python socket client
 
 Install socket io client 
